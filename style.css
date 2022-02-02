@@ -1,0 +1,317 @@
+*{
+    padding: 0px;
+    margin: 0;
+    color: aliceblue;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    background-color: #000000;
+    text-decoration: none;
+}
+.header{
+    display: flex;
+    float:left;
+    margin: 20px 100px;
+    width: 300px;
+    height: 60px;
+    background: #000000;
+    border-radius: 50px;
+    justify-content: space-between;
+
+    
+}
+
+.header a{
+    margin: auto;
+    border-radius: 50%;
+}
+
+#header_logo{
+    
+    border: 1 px solid white;
+    
+}
+
+.header_logo--pic{
+    width: 50px;
+    margin: 5px auto;
+    margin-left: 50px;
+    background-color: rgba(240, 248, 255, 0.966);
+    border-radius: 50%;
+    border: 1px solid rgb(255, 255, 255);
+    box-shadow: 0 0 30px 0 rgba(255, 255, 255, 0.5), 0 0 60px 0 rgba(255, 255, 255, 0.5);
+}
+#home{
+    width: 30%;
+    border: 0.3px solid #1d9cf06e;
+    box-shadow: 0 0 20px 0 rgba(0, 119, 255, 0.35), 0 0 400px 0 rgba(3, 112, 255, 0.19);
+    margin: 20px 0;
+    
+}
+
+#header_home--text{
+    
+    max-width: 300px;
+    margin: 15px 0 0 30px ;
+    text-align: center;
+    font-size: 10px;
+    
+}
+
+.header_home--top{
+    width: 60px;
+    border: 10px solid #000000;
+    border-radius: 50%;
+    background-color: #000000;
+
+}
+
+#search{
+    border: 0.3px solid #1d9cf070;
+    /* border: 1px solid rgba(255, 255, 255, 0.527); */
+    box-shadow: 0 0 20px 0 rgba(0, 119, 255, 0.35), 0 0 400px 0 rgba(3, 112, 255, 0.18);
+    
+}
+
+.header_search{
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+    width: 50px;
+    height: 50px;
+    margin-top: 4px;
+    margin-left: 5px;
+    margin-right: 10px;
+    
+}
+
+.header_search--bar{
+    width: 300px;
+    text-align: center;
+    flex: 1; 
+    border: #000000; 
+    border-radius: 30px;
+}
+
+.main{
+    display: flex;
+    float:left;
+    margin: 30px 70px;
+    width: 300px;
+    height: auto;
+    background: #000000;
+    border-radius: 50px;
+    justify-content: space-between;
+
+}
+
+.left_home--buttons{
+    margin-left:50px;
+    font-size: 17px;
+    padding: 10px 40px 10px 40px;
+    border: 0.3px solid #1d9cf06e;
+    border-radius: 30px;
+    font-weight: 100;
+    box-shadow: 0 0 20px 0 rgba(0, 119, 255, 0.18), 0 0 400px 0 rgba(3, 112, 255, 0.18);
+}
+
+
+.tweet{
+    text-align: center;
+    width: 200px;
+    border-radius: 30px;
+    height: 50px;
+    background-color: #1d9bf0;
+    border: none;
+    font-weight: 700;
+    line-height: 20px;
+    font-size: 20px;
+    margin: 30px 0;
+    cursor: pointer;
+    
+}
+
+#middle-section{
+    width: 35%;
+    margin: 30px 20px 0 20px;
+    display: inline;
+}
+
+#trends{
+    font-size: 17px;
+    padding: 10px 40px 10px 20px;
+    border: 0.3px solid #1d9cf06e;
+    border-radius: 30px;
+    font-weight: 100;
+    box-shadow: 0 0 20px 0 rgba(0, 119, 255, 0.18), 0 0 400px 0 rgba(3, 112, 255, 0.18);
+}
+
+.right_trends--div1{
+    margin: 20px 0 10px;
+    cursor: pointer;
+    
+}
+
+#trends-title{
+    width: 220px;
+    margin: 20px 0 20px ;
+    text-align: left;
+    font-weight:400;
+}
+
+.trending{
+    opacity: 0.5;
+    font-size: 0.8em;
+    font-weight:400;
+}
+
+.trend-title{
+    font-weight: 700;
+}
+
+#profile-pic{
+    width: 50px;
+    float: left;
+}
+
+#textarea{
+    width: 80%;
+    height: 50px;
+    margin-left: 20px;
+    border: none;
+    resize: none;
+    font-size: 20px;
+}
+.icons{
+    margin: 0px 30px;
+}
+
+.icon{
+    background-color: #1d9bf0;
+    border-radius: 50%;
+    width: 17px;
+    color: aliceblue;
+    margin: 0px 5px;
+    line-height: 20px;
+    display: inline-block;
+}
+.icon:hover{
+    outline: 10px solid #0b53836e;
+    border-radius: 50px;
+}
+#world-icon{
+    outline: none;
+}
+
+#reply{
+    margin: 10px 65px;
+    color: #1d9bf0;
+    justify-content: center;
+    padding-bottom:5px ;
+    margin-bottom: 15px;
+    
+    
+}
+
+#reply:hover{
+    border-radius: 30px;
+    background-color:#014b7c44 ;
+    outline: 10px solid #014b7c44;
+}
+
+#small-tweet{
+    margin: 20px 0 10px 180px;
+    width: 80px;
+    height: 30px;
+    font-size: 15px;
+}
+.tweets{
+    margin: 20px 0 30px;
+    border-left: 1px solid #1d9cf070;
+    border-right: 1px solid #1d9cf06e;
+    border-top: 1px solid #1d9cf06e;
+    border-radius: 15px;
+    height: auto;
+
+
+}
+.profile{
+    margin: 10px 0 0 15px;
+    width: 50px;
+    float: left;
+    background-color: none;
+}
+
+.post{
+    width: 80%;
+    height: auto;
+    margin: 20px 0 10px 80px;
+    border: none;
+    resize: none;
+    font-size: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    
+    
+}
+
+.user-name{
+    margin-left: 80px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 1em;
+}
+.user-name:hover{
+    text-decoration: underline;
+}
+
+.tweets-section{
+    margin: 10px  0px 10px 0px;
+    border-top: 1px solid #1d9cf06e;
+}
+
+#first-tweet{
+    border-top: none;
+}
+
+
+.comment{
+    margin-left: 80px;
+    font-weight: 100;
+    font-size: 14px;
+}
+.bottom-icons{
+    margin-top: 10px;
+    margin-bottom: 50px;
+    justify-content: space-between;
+    margin-left:90px;
+}
+
+.bottom-iconss{
+  
+    margin-right: 50px;
+    float: left;
+    width: 25px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    color: #1d9bf0;
+    justify-content: space-between;
+    cursor: pointer;
+    border: 1px solid white;
+}
+
+#chat:hover{
+    background-color: #1d9bf0;
+    outline: 10px solid #1d9cf036;
+}
+
+#repost:hover{
+    background-color: rgb(32, 167, 32);
+    outline: 10px solid rgba(11, 194, 11, 0.226);
+}
+
+#like:hover{
+    background-color: red;
+    outline: 10px solid rgba(255, 0, 0, 0.212);
+}
